@@ -10,6 +10,8 @@ $grayDarker: #B0B0B0;
 
 html {
   overflow-y: scroll;
+  min-height: 100%;
+  position: relative;
 }
 
 body {
@@ -80,6 +82,9 @@ p {
 /* footer */
 
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
@@ -108,4 +113,10 @@ footer {
     min-height: 20px;
     min-width: 20px;
   }
+}
+
+/* posts */
+
+.time-created {
+  font-size: 0.8em;
 }
