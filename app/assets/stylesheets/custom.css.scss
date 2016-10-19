@@ -19,6 +19,11 @@ body {
   padding-top: 60px;
 }
 
+.navbar {
+  background-color: #F8F8F8;
+  border-color: #E7E7E7;
+}
+
 section {
   overflow: auto;
 }
@@ -89,6 +94,7 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
+  background-color: #F8F8F8;
   color: $grayLight;
   a {
     color: $gray;
@@ -120,4 +126,24 @@ footer {
 
 .time-created {
   font-size: 0.8em;
+}
+
+/* Tag cloud */
+
+#tag_cloud {
+  border: solid 1px #DEFFFE;
+  padding: 12px;
+  background-color: #F2FFFF;
+}
+
+/* Post buttons */
+
+.post-buttons {
+  color: #007aff;
+  background-color: #fff;
+  border-color: #007aff;
+  &:hover {
+    background-color: #EDFBFF;
+  color: #007aff;
+  }
 }
