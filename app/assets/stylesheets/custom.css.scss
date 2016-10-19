@@ -19,11 +19,6 @@ body {
   padding-top: 60px;
 }
 
-.navbar {
-  background-color: #F8F8F8;
-  border-color: #E7E7E7;
-}
-
 section {
   overflow: auto;
 }
@@ -32,11 +27,21 @@ textarea {
   resize: vertical;
 }
 
+.alert {
+  background-color: #E8F9FF;
+  border: 1px solid #B5C2C7;
+}
+
 .center {
   text-align: center;
   h1 {
     margin-bottom: 10px;
   }
+}
+
+.navbar {
+  background-color: #F8F8F8;
+  border-color: #E7E7E7;
 }
 
 /* typography */
@@ -58,7 +63,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayLight;
+  color: $grayDarker;
 }
 
 p {
