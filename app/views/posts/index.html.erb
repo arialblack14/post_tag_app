@@ -11,6 +11,7 @@
       <div>
         <%= raw(post.body).truncate(358) %>
         <p class="time-created">Posted: <%= time_ago_in_words(post.created_at) %> ago</p>
+        <p class="pull-right">Tags: <%= raw(post.tag_list.map { |t| link_to t, tag_path(t) }.join(', ')) %></p>
       </div>
       <br>
     </div>
