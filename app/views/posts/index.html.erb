@@ -17,4 +17,7 @@
     </div>
     <% end %>
   </div>
+  <% if @posts.any? %>
+    <%= will_paginate @posts, renderer: BootstrapPagination::Rails %>
+  <% end %>
 </div>
